@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005777",
-  "source": "openneuro",
-  "source_id": "ds005777",
+  "pipeline_stage": "validated",
   "title": "Electrical_Morphine_Placebo_2018",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Peng, Ke": {},
     "Yücel, Meryem": {},
@@ -17,33 +17,90 @@
     "Becerra, Lino": {},
     "Borsook, David": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005777.v1.0.1",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.3389/fnhum.2018.00394",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005777",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005777",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.1",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH-NIGMS 1-R01-GM104986"
-    },
-    {
-      "funder_name": "NIH-NIGMS 1-R01-GM122405"
-    },
-    {
       "funder_name": "The Mayday Fund, New York"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "1-R01-GM104986"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "1-R01-GM122405"
+    },
+    {
+      "funder_name": "The Mayday Fund"
     }
   ],
-  "acknowledgements": "This work was supported by the National Institutes of Health (NIH), the National Institute of General Medical Sciences (NIGMS) under grants NIH-NIGMS 1-R01-GM104986, 1-R01-GM122405, and the Mayday Fund, New York. We thank all participants and clinical staff who contributed to this study."
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "906.2 MB (114 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) neuroimaging data collected during a study investigating the neural mechanisms of morphine analgesia and placebo effects. Participants received painful electrical stimulation under three conditions: baseline pain, morphine administration, and placebo treatment. The study measured hemodynamic responses in the medial frontopolar cortex (medial BA 10) to characterize how morphine and placebo attenuate pain-related neural activity.",
+  "methods_description": "fNIRS data were acquired during painful electrical stimulation under three experimental conditions: baseline pain, morphine administration, and placebo treatment. Hemodynamic responses were measured in the medial frontopolar cortex.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
+    },
+    {
+      "term": "Morphine",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009020"
+    },
+    {
+      "term": "Placebo Effect",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015990"
+    },
+    {
+      "term": "Analgesia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000698"
+    },
+    {
+      "term": "prefrontal cortex"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "f55ce122920a0dc73a6ab75591e9a16df17e0c576bb8dc283b7edfa96b0ab587"
 }
