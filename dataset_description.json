@@ -1,7 +1,7 @@
 {
   "Name": "Electrical_Morphine_Placebo_2018",
   "BIDSVersion": "1.7.1",
-  "License": "CC0-1.0",
+  "License": "CC0",
   "Authors": [
     "Peng, Ke",
     "Yücel, Meryem",
@@ -34,5 +34,5 @@
       "DOI": "doi:10.18112/openneuro.ds005777.v1.0.1"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2"
 }
