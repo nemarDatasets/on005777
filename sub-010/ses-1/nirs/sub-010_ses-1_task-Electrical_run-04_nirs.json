@@ -1,1 +1,1 @@
-{"TaskName":"TactilePerception","SamplingFrequency":25,"NIRSChannelCount":66,"NIRSSourceOptodeCount":9,"NIRSDetectorOptodeCount":21}
+{"TaskName":"TactilePerception","SamplingFrequency":25,"NIRSChannelCount":66,"NIRSSourceOptodeCount":9,"NIRSDetectorOptodeCount":21,"RecordingDuration":391.0,"RecordingType":"continuous","Manufacturer":"TechEn","ManufacturersModelName":"CW7"}
